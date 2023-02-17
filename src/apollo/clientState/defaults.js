@@ -1,5 +1,6 @@
 import { restoreNotes } from './localStorage';
 
 export default {
-    notes: restoreNotes()
+    notes: restoreNotes(),
+    pages: restorePages()
 };

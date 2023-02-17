@@ -7,3 +7,11 @@ export const NOTE_FRAGMENT = gql`
         content
     }
 `;
+
+export const PAGE_FRAGMENT = gql`
+    fragment PageParts on Page {
+        id
+        title
+        route
+    }
+`;
